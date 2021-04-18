@@ -1,14 +1,14 @@
 // Components
-import Profile from "./components/Profile";
-import Statistics from "./components/Statistics";
-import FriendList from "./components/FriendList";
-import TransactionHistory from "./components/TransactionHistory";
+import Profile from './components/Profile/Profile';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 // Data
-import user from "./data/user.json";
-import statisticalData from "./data/statistical-data.json";
-import friends from "./data/friends.json";
-import transactions from "./data/transactions.json";
+import user from './data/user.json';
+import statisticalData from './data/statistical-data.json';
+import friends from './data/friends.json';
+import transactions from './data/transactions.json';
 
 const App = () => {
   return (

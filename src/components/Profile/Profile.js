@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
-import defaultAvatar from "../img/defaultAvatar.png";
+import defaultAvatar from "./defaultAvatar.png";
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
+
   return (
     <div className="profile">
       <div className="description">
